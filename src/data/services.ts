@@ -1,26 +1,32 @@
 export const services = [
   {
-    title: 'Interior Design',
-    description: 'Konsep, layout, moodboard, 3D visual, dan arahan desain ruang.',
+    title: 'Botol Plastik HDPE',
+    description:
+      'Produksi botol plastik HDPE untuk kebutuhan kemasan produk cair, semi-cair, dan kebutuhan industri.',
   },
   {
-    title: 'Design & Build',
-    description: 'Desain dan pelaksanaan interior dalam satu alur kerja yang lebih terkontrol.',
+    title: 'Botol Sabun & Cleaning Product',
+    description:
+      'Botol HDPE untuk sabun cair, cairan pembersih, disinfektan, hand sanitizer, dan produk rumah tangga.',
   },
   {
-    title: 'Project Management',
-    description: 'Koordinasi vendor, pengawasan pekerjaan, dokumentasi, dan laporan progres.',
+    title: 'Botol Kosmetik & Personal Care',
+    description:
+      'Kemasan botol plastik untuk shampoo, body wash, lotion, toner, dan produk perawatan pribadi.',
   },
   {
-    title: 'RAB & Budget Planning',
-    description: 'Membantu menyusun estimasi biaya dan prioritas pekerjaan agar budget lebih terarah.',
+    title: 'Botol Chemical & Industri',
+    description:
+      'Botol HDPE untuk kebutuhan chemical tertentu, otomotif, pupuk cair, dan produk teknis lainnya.',
   },
   {
-    title: 'Interior Fit-Out',
-    description: 'Produksi, instalasi, dan finishing interior sesuai desain dan kebutuhan ruang.',
+    title: 'Custom Ukuran & Warna',
+    description:
+      'Kebutuhan ukuran, warna botol, jenis tutup, dan model tertentu dapat didiskusikan sesuai jumlah produksi.',
   },
   {
-    title: 'Custom Furniture',
-    description: 'Pembuatan kitchen set, wardrobe, storage, TV cabinet, dan furniture custom lainnya.',
+    title: 'Supply Grosir & B2B',
+    description:
+      'Melayani kebutuhan botol plastik partai besar untuk brand, distributor, toko packaging, pabrik, dan industri.',
   },
 ];

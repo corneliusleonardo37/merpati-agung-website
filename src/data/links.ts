@@ -3,20 +3,26 @@ import { whatsappUrl } from './site';
 export const linkItems = [
   {
     title: 'Konsultasi via WhatsApp',
-    description: 'Diskusikan kebutuhan desain, interior, atau proyekmu.',
+    description: 'Diskusikan kebutuhan botol plastik HDPE, ukuran, warna, tutup, dan jumlah order.',
     href: whatsappUrl,
     isPrimary: true,
   },
   {
-    title: 'Sistem Open-Book Verd',
-    description: 'Pelajari cara Verd membuat proses proyek lebih transparan.',
+    title: 'Lihat Produk Botol HDPE',
+    description: 'Cek kategori botol plastik HDPE untuk kebutuhan cleaning, chemical, kosmetik, dan industri.',
+    href: '/portfolio',
+    isPrimary: false,
+  },
+  {
+    title: 'Proses Order',
+    description: 'Pelajari alur pemesanan dari konsultasi, sample, produksi, sampai pengiriman.',
     href: '/sistem-verd',
     isPrimary: false,
   },
   {
     title: 'Instagram',
-    description: 'Update desain, render, dan proses kerja Verd.',
-    href: 'https://instagram.com/verd.studio',
+    description: 'Lihat update produk, proses produksi, dan informasi kemasan plastik.',
+    href: 'https://instagram.com/merpatiagungplastik',
     isPrimary: false,
   },
 ];

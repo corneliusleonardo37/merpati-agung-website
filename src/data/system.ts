@@ -1,14 +1,17 @@
 export const systemValues = [
   {
-    title: 'Transparan',
-    description: 'Struktur biaya dan alur kerja dibuat lebih jelas sejak awal.',
+    title: 'Produksi Terarah',
+    description:
+      'Kebutuhan botol dibahas sejak awal, mulai dari ukuran, warna, jenis tutup, sampai jumlah produksi.',
   },
   {
-    title: 'Terukur',
-    description: 'Proses desain, RAB, jadwal, dan pekerjaan dibuat bertahap.',
+    title: 'Material HDPE',
+    description:
+      'Menggunakan material HDPE yang umum dipakai untuk kemasan botol plastik karena kuat, ringan, dan fungsional.',
   },
   {
-    title: 'Terkelola',
-    description: 'Proyek dibantu dengan koordinasi, dokumentasi, dan laporan progres.',
+    title: 'Siap B2B',
+    description:
+      'Melayani kebutuhan botol plastik untuk brand, distributor, toko packaging, pabrik, dan industri.',
   },
 ];

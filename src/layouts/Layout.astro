@@ -3,14 +3,16 @@ import '../styles/global.css';
 import { site } from '../data/site';
 
 const {
-  title = 'Verd — Design & Build Interior Transparan',
-  description = 'Verd membantu pemilik rumah, apartemen, dan bisnis membangun interior dengan sistem desain, RAB, eksekusi, dan laporan biaya yang lebih transparan.',
+  title = site.seo.title,
+  description = site.seo.description,
   canonicalPath = '/',
 } = Astro.props;
 
 const normalizedCanonicalPath =
   canonicalPath === '/' ? '/' : `/${canonicalPath.replace(/^\/+|\/+$/g, '')}`;
-const canonicalUrl = `${site.url}${normalizedCanonicalPath === '/' ? '/' : normalizedCanonicalPath}`;
+
+const baseUrl = site.url.replace(/\/+$/g, '');
+const canonicalUrl = `${baseUrl}${normalizedCanonicalPath === '/' ? '/' : normalizedCanonicalPath}`;
 ---
 
 <!doctype html>
@@ -18,6 +20,7 @@ const canonicalUrl = `${site.url}${normalizedCanonicalPath === '/' ? '/' : norma
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    <meta name="keywords" content={site.seo.keywords.join(', ')} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{title}</title>
@@ -26,7 +29,7 @@ const canonicalUrl = `${site.url}${normalizedCanonicalPath === '/' ? '/' : norma
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:site_name" content="Verd" />
+    <meta property="og:site_name" content={site.name} />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
@@ -38,27 +41,30 @@ const canonicalUrl = `${site.url}${normalizedCanonicalPath === '/' ? '/' : norma
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
-      name: 'Verd',
-      description:
-        'Design & build interior dengan sistem biaya, desain, eksekusi, dan laporan proyek yang lebih transparan.',
-      url: 'https://verd.id',
-      areaServed: [
-        'BSD',
-        'Serpong',
-        'Tangerang Selatan',
-        'Jabodetabek'
-      ],
-      serviceType: [
-        'Interior Design',
-        'Design and Build',
-        'Interior Fit-Out',
-        'Project Management',
-        'Custom Furniture'
+      name: site.name,
+      description: site.seo.description,
+      url: site.url,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Sidoarjo',
+        addressRegion: 'Jawa Timur',
+        addressCountry: 'ID'
+      },
+      areaServed: site.areas,
+      makesOffer: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Product',
+            name: 'Botol Plastik HDPE',
+            description: 'Botol plastik HDPE untuk kebutuhan kemasan industri, cleaning product, chemical tertentu, kosmetik, personal care, dan brand lokal.'
+          }
+        }
       ],
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'customer service',
-        telephone: '+6281234567890',
+        telephone: `+${site.whatsappNumber}`,
         availableLanguage: ['Indonesian']
       }
     })} />

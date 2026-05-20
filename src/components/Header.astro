@@ -5,17 +5,17 @@ const currentPath = Astro.url.pathname;
 
 const navItems = [
   {
-    label: 'Layanan',
+    label: 'Produk',
     href: '/layanan',
     isActive: currentPath === '/layanan',
   },
   {
-    label: 'Sistem Verd',
+    label: 'Proses Order',
     href: '/sistem-verd',
     isActive: currentPath === '/sistem-verd',
   },
   {
-    label: 'Portfolio',
+    label: 'Katalog',
     href: '/portfolio',
     isActive: currentPath === '/portfolio',
   },
@@ -32,9 +32,10 @@ const navItems = [
     <a href="/" class="flex items-center gap-3 font-bold tracking-tight text-stone-950">
       <img
         src="/verd-logo.svg"
-        alt="Verd logo"
+        alt="Merpati Agung Plastik logo"
         class="h-8 w-auto"
       />
+      <span class="hidden sm:inline">Merpati Agung Plastik</span>
     </a>
 
     <nav class="hidden items-center gap-8 text-sm font-medium text-stone-700 md:flex">
@@ -54,6 +55,7 @@ const navItems = [
     <a
       href={whatsappUrl}
       target="_blank"
+      rel="noopener noreferrer"
       class="hidden rounded-full bg-emerald-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-900 md:inline-flex"
     >
       WhatsApp
@@ -90,6 +92,7 @@ const navItems = [
       <a
         href={whatsappUrl}
         target="_blank"
+        rel="noopener noreferrer"
         class="mt-2 rounded-full bg-emerald-800 px-4 py-3 text-center font-semibold text-white transition hover:bg-emerald-900"
       >
         Konsultasi via WhatsApp

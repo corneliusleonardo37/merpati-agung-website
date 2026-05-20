@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://verd.id',
+  site: 'https://merpati-agung-website.pages.dev',
   vite: {
     plugins: [tailwindcss()],
   },

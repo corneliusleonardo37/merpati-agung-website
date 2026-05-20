@@ -1,50 +1,50 @@
 export const portfolioItems = [
   {
-    title: 'Modern Compact Kitchen',
-    category: 'Kitchen Set',
-    location: 'BSD',
+    title: 'Botol HDPE untuk Sabun Cair',
+    category: 'Cleaning Product',
+    location: 'Sidoarjo',
     description:
-      'Konsep kitchen set compact untuk ruang terbatas dengan penyimpanan yang lebih rapi dan tampilan modern.',
+      'Botol plastik HDPE untuk kebutuhan sabun cair, cairan pembersih, disinfektan, dan produk kebersihan rumah tangga.',
     image: '',
   },
   {
-    title: 'Warm Minimalist Bedroom',
-    category: 'Residential',
-    location: 'Tangerang',
+    title: 'Botol HDPE untuk Shampoo',
+    category: 'Personal Care',
+    location: 'Jawa Timur',
     description:
-      'Konsep kamar tidur warm minimalist dengan fokus pada kenyamanan, storage, dan komposisi warna yang tenang.',
+      'Kemasan botol HDPE untuk shampoo, body wash, lotion, dan produk perawatan pribadi.',
     image: '',
   },
   {
-    title: 'Apartment Storage Solution',
-    category: 'Apartment',
-    location: 'Serpong',
+    title: 'Botol HDPE untuk Chemical',
+    category: 'Chemical & Industri',
+    location: 'Indonesia',
     description:
-      'Solusi storage apartemen untuk memaksimalkan ruang kecil tanpa membuat ruangan terasa penuh.',
+      'Botol plastik HDPE untuk kebutuhan chemical tertentu, produk teknis, cairan industri, dan kebutuhan pabrik.',
     image: '',
   },
   {
-    title: 'Clean Retail Display',
-    category: 'Commercial',
-    location: 'Tangerang',
+    title: 'Botol HDPE untuk Pupuk Cair',
+    category: 'Agriculture',
+    location: 'Indonesia',
     description:
-      'Konsep display retail yang bersih, mudah dibaca pengunjung, dan mendukung pengalaman belanja.',
+      'Kemasan botol HDPE untuk pupuk cair, nutrisi tanaman, dan produk pertanian cair lainnya.',
     image: '',
   },
   {
-    title: 'Calm Living Room Concept',
-    category: 'Residential',
-    location: 'Jabodetabek',
+    title: 'Botol HDPE Custom Warna',
+    category: 'Custom Packaging',
+    location: 'Sidoarjo',
     description:
-      'Konsep ruang keluarga dengan suasana tenang, layout fungsional, dan material yang mudah dirawat.',
+      'Pilihan warna botol dapat didiskusikan sesuai kebutuhan brand, jumlah produksi, dan ketersediaan bahan.',
     image: '',
   },
   {
-    title: 'Custom Wardrobe System',
-    category: 'Custom Furniture',
-    location: 'Tangerang Selatan',
+    title: 'Supply Botol Plastik Grosir',
+    category: 'B2B Supply',
+    location: 'Indonesia',
     description:
-      'Sistem wardrobe custom yang dirancang untuk kebutuhan penyimpanan harian dengan tampilan rapi.',
+      'Melayani kebutuhan botol plastik partai besar untuk distributor, toko packaging, brand lokal, dan industri.',
     image: '',
   },
 ];

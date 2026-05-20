@@ -1,38 +1,38 @@
 export const processSteps = [
   {
     number: '01',
-    title: 'Konsultasi Awal',
+    title: 'Konsultasi Kebutuhan',
     description:
-      'Membahas kebutuhan ruang, masalah utama, gaya desain, target budget, dan prioritas.',
+      'Ceritakan kebutuhan botol plastik HDPE, mulai dari jenis produk, ukuran, warna, tutup, dan jumlah order.',
   },
   {
     number: '02',
-    title: 'Survey & Brief',
+    title: 'Cek Model & Spesifikasi',
     description:
-      'Mengukur area, memahami kondisi lapangan, dan mengunci kebutuhan dasar proyek.',
+      'Kami bantu cek model botol yang tersedia serta menyesuaikan pilihan kemasan dengan kebutuhan produk Anda.',
   },
   {
     number: '03',
-    title: 'Desain & RAB',
+    title: 'Sample / Konfirmasi',
     description:
-      'Membuat konsep desain, arahan material, serta estimasi biaya pekerjaan.',
+      'Buyer dapat memastikan bentuk, kapasitas, warna, dan detail teknis sebelum masuk ke tahap produksi.',
   },
   {
     number: '04',
-    title: 'Persetujuan Pekerjaan',
+    title: 'Penawaran Harga',
     description:
-      'Pekerjaan dimulai setelah desain, lingkup kerja, dan biaya disepakati.',
+      'Harga disesuaikan berdasarkan model botol, bahan, warna, jenis tutup, dan jumlah produksi yang dibutuhkan.',
   },
   {
     number: '05',
-    title: 'Produksi & Pelaksanaan',
+    title: 'Produksi Botol',
     description:
-      'Tim menjalankan pekerjaan sesuai prioritas, jadwal, dan arahan yang telah disetujui.',
+      'Botol plastik HDPE diproduksi sesuai spesifikasi yang telah disepakati bersama.',
   },
   {
     number: '06',
-    title: 'Laporan & Serah Terima',
+    title: 'Packing & Pengiriman',
     description:
-      'Progres, dokumentasi, dan hasil pekerjaan dirapikan sebelum serah terima.',
+      'Produk dikemas dan dikirim ke lokasi buyer sesuai kesepakatan pengiriman.',
   },
 ];

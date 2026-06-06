@@ -6,7 +6,7 @@
   whatsappNumber: '6281234567890',
   whatsappDisplay: '0812-3456-7890',
   whatsappMessage:
-    'Halo Merpati Agung Plastik, saya ingin konsultasi kebutuhan produk plastik untuk pemesanan.',
+    'Halo Merpati Agung Plastik, saya ingin konsultasi kebutuhan produk plastik.',
 
   instagram: '@merpatiagungplastik',
   email: 'hello@merpatiagungplastik.com',

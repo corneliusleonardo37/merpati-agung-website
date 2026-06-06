@@ -28,22 +28,22 @@ const navItems = [
 ---
 
 <header class="fixed left-0 top-0 z-50 w-full border-b border-stone-200/70 bg-stone-50/90 backdrop-blur">
-  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
-    <a href="/" class="flex items-center gap-3 font-bold tracking-tight text-stone-950">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-5 px-5 py-4 sm:px-6 sm:py-5">
+    <a href="/" class="flex min-w-0 shrink-0 items-center" aria-label="Beranda Merpati Agung Plastik">
       <img
         src="/merpati-agung-logo.svg"
-        alt="Merpati Agung Plastik logo"
-        class="h-8 w-auto"
+        alt="Merpati Agung Plastik"
+        class="h-10 w-auto max-w-[180px] object-contain sm:h-12 sm:max-w-[240px] lg:h-14 lg:max-w-[280px]"
+        decoding="async"
       />
-      <span class="hidden sm:inline">Merpati Agung Plastik</span>
     </a>
 
-    <nav class="hidden items-center gap-8 text-sm font-medium text-stone-700 md:flex">
+    <nav class="hidden items-center gap-6 text-sm font-medium text-stone-700 lg:gap-8 md:flex">
       {navItems.map((item) => (
         <a
           href={item.href}
           class:list={[
-            'transition hover:text-emerald-800',
+            'whitespace-nowrap transition hover:text-emerald-800',
             item.isActive ? 'font-bold text-emerald-800' : 'text-stone-700',
           ]}
         >
@@ -56,7 +56,8 @@ const navItems = [
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      class="hidden rounded-full bg-emerald-800 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-900 md:inline-flex"
+      aria-label="Hubungi Merpati Agung Plastik via WhatsApp"
+      class="hidden shrink-0 rounded-full bg-emerald-800 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-900 md:inline-flex"
     >
       WhatsApp
     </a>
@@ -64,7 +65,7 @@ const navItems = [
     <button
       id="mobile-menu-button"
       type="button"
-      class="rounded-full border border-stone-300 px-4 py-2 text-sm font-semibold text-stone-800 md:hidden"
+      class="shrink-0 rounded-full border border-stone-300 px-4 py-2.5 text-sm font-semibold text-stone-800 md:hidden"
       aria-label="Buka menu navigasi"
       aria-expanded="false"
     >
@@ -74,7 +75,7 @@ const navItems = [
 
   <div
     id="mobile-menu"
-    class="hidden border-t border-stone-200 bg-stone-50 px-6 py-4 md:hidden"
+    class="hidden border-t border-stone-200 bg-stone-50 px-6 py-5 md:hidden"
   >
     <nav class="mx-auto flex max-w-6xl flex-col gap-4 text-sm font-medium">
       {navItems.map((item) => (
@@ -93,6 +94,7 @@ const navItems = [
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Konsultasi kebutuhan produk plastik via WhatsApp"
         class="mt-2 rounded-full bg-emerald-800 px-4 py-3 text-center font-semibold text-white transition hover:bg-emerald-900"
       >
         Konsultasi via WhatsApp

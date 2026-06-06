@@ -1,4 +1,4 @@
----
+﻿---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -8,8 +8,8 @@ import { portfolioItems } from '../data/portfolio';
 ---
 
 <Layout
-  title="Katalog Botol Plastik HDPE | Merpati Agung Plastik"
-  description="Lihat contoh kategori botol plastik HDPE untuk cleaning product, personal care, chemical tertentu, pupuk cair, custom warna, dan kebutuhan supply grosir."
+  title="Katalog Produk Plastik | Merpati Agung Plastik"
+  description="Lihat kategori produk plastik Merpati Agung Plastik: botol HDPE, jerigen plastik, botol pupuk, botol oli, botol HCL, dan supply grosir."
   canonicalPath="/portfolio"
 >
   <main class="min-h-screen bg-stone-50 text-stone-900">
@@ -21,13 +21,12 @@ import { portfolioItems } from '../data/portfolio';
       </p>
 
       <h1 class="mt-4 max-w-4xl text-4xl font-bold leading-tight tracking-tight md:text-6xl">
-        Contoh kebutuhan botol plastik HDPE yang dapat kami bantu produksi.
+        Kategori produk plastik yang dapat kami supply untuk kebutuhan usaha.
       </h1>
 
       <p class="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-        Merpati Agung Plastik melayani kebutuhan botol HDPE untuk cleaning product,
-        personal care, chemical tertentu, pupuk cair, produk industri, dan kebutuhan
-        supply botol plastik partai besar.
+        Merpati Agung Plastik melayani toko bahan kimia, toko plastik, pabrik pupuk,
+        penjual HCL, distributor, dan industri yang membutuhkan produk plastik secara rutin.
       </p>
     </section>
 
@@ -45,14 +44,14 @@ import { portfolioItems } from '../data/portfolio';
               ) : (
                 <div class="flex h-64 items-center justify-center bg-gradient-to-br from-emerald-50 to-stone-200">
                   <span class="text-sm font-semibold uppercase tracking-[0.25em] text-stone-500">
-                    Botol HDPE
+                    Produk Plastik
                   </span>
                 </div>
               )}
 
               <div class="p-6">
                 <p class="text-sm font-semibold text-emerald-700">
-                  {item.category} · {item.location}
+                  {item.category} - {item.location}
                 </p>
 
                 <h2 class="mt-3 text-2xl font-bold">
@@ -77,14 +76,13 @@ import { portfolioItems } from '../data/portfolio';
           </p>
 
           <h2 class="mt-4 max-w-3xl text-3xl font-bold tracking-tight md:text-4xl">
-            Spesifikasi botol dapat disesuaikan dengan kebutuhan order.
+            Pilihan produk plastik disesuaikan dengan kebutuhan penggunaan.
           </h2>
 
           <p class="mt-5 max-w-3xl leading-8 text-stone-600">
-            Pilihan ukuran, warna, bentuk botol, dan jenis tutup dapat didiskusikan
-            berdasarkan ketersediaan model, kebutuhan produk, dan jumlah produksi.
-            Untuk kebutuhan custom tertentu, tim kami akan membantu mengecek kemungkinan
-            teknisnya terlebih dahulu.
+            Untuk HCL, bahan kimia, pupuk cair, oli, dan produk teknis lain, spesifikasi
+            kemasan perlu dikonfirmasi lebih dulu. Tim kami akan membantu mengecek pilihan
+            produk yang paling sesuai dengan kebutuhan order.
           </p>
         </div>
       </div>

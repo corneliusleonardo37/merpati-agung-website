@@ -1,50 +1,50 @@
-export const portfolioItems = [
+﻿export const portfolioItems = [
   {
-    title: 'Botol HDPE untuk Sabun Cair',
-    category: 'Cleaning Product',
+    title: 'Botol Plastik HDPE',
+    category: 'Kemasan Plastik',
     location: 'Sidoarjo',
     description:
-      'Botol plastik HDPE untuk kebutuhan sabun cair, cairan pembersih, disinfektan, dan produk kebersihan rumah tangga.',
+      'Botol HDPE untuk kebutuhan produk cair, toko bahan kimia, toko plastik, distributor, dan industri.',
     image: '',
   },
   {
-    title: 'Botol HDPE untuk Shampoo',
-    category: 'Personal Care',
+    title: 'Jerigen Plastik',
+    category: 'Jerigen',
     location: 'Jawa Timur',
     description:
-      'Kemasan botol HDPE untuk shampoo, body wash, lotion, dan produk perawatan pribadi.',
+      'Jerigen plastik untuk bahan kimia, pupuk cair, oli, cairan teknis, dan kebutuhan distribusi produk cair.',
     image: '',
   },
   {
-    title: 'Botol HDPE untuk Chemical',
-    category: 'Chemical & Industri',
+    title: 'Botol Pupuk Cair',
+    category: 'Pertanian',
     location: 'Indonesia',
     description:
-      'Botol plastik HDPE untuk kebutuhan chemical tertentu, produk teknis, cairan industri, dan kebutuhan pabrik.',
+      'Kemasan botol plastik untuk pabrik pupuk, nutrisi tanaman, dan produk pertanian cair.',
     image: '',
   },
   {
-    title: 'Botol HDPE untuk Pupuk Cair',
-    category: 'Agriculture',
+    title: 'Botol Kemasan Oli',
+    category: 'Otomotif',
     location: 'Indonesia',
     description:
-      'Kemasan botol HDPE untuk pupuk cair, nutrisi tanaman, dan produk pertanian cair lainnya.',
+      'Botol plastik untuk oli, pelumas, cairan otomotif, dan produk teknis dengan kebutuhan kemasan yang kuat.',
     image: '',
   },
   {
-    title: 'Botol HDPE Custom Warna',
-    category: 'Custom Packaging',
+    title: 'Botol HCL',
+    category: 'Bahan Kimia',
     location: 'Sidoarjo',
     description:
-      'Pilihan warna botol dapat didiskusikan sesuai kebutuhan brand, jumlah produksi, dan ketersediaan bahan.',
+      'Kemasan plastik untuk HCL dan bahan kimia lain, dengan pengecekan spesifikasi sebelum pemesanan.',
     image: '',
   },
   {
-    title: 'Supply Botol Plastik Grosir',
+    title: 'Supply Produk Plastik Grosir',
     category: 'B2B Supply',
     location: 'Indonesia',
     description:
-      'Melayani kebutuhan botol plastik partai besar untuk distributor, toko packaging, brand lokal, dan industri.',
+      'Supply produk plastik untuk toko bahan kimia, toko plastik, pabrik, distributor, dan penjual bahan kimia.',
     image: '',
   },
 ];

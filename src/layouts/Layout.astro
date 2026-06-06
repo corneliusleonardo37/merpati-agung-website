@@ -1,4 +1,4 @@
----
+﻿---
 import '../styles/global.css';
 import { site } from '../data/site';
 
@@ -40,7 +40,7 @@ const canonicalUrl = `${baseUrl}${normalizedCanonicalPath === '/' ? '/' : normal
 
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
-      '@type': 'LocalBusiness',
+      '@type': 'Organization',
       name: site.name,
       description: site.seo.description,
       url: site.url,
@@ -56,8 +56,8 @@ const canonicalUrl = `${baseUrl}${normalizedCanonicalPath === '/' ? '/' : normal
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Product',
-            name: 'Botol Plastik HDPE',
-            description: 'Botol plastik HDPE untuk kebutuhan kemasan industri, cleaning product, chemical tertentu, kosmetik, personal care, dan brand lokal.'
+            name: 'Produk Plastik Industri',
+            description: 'Botol plastik HDPE, jerigen plastik, botol pupuk, botol kemasan oli, botol HCL, dan kemasan plastik untuk bahan kimia tertentu.'
           }
         }
       ],

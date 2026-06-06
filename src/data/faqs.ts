@@ -1,28 +1,28 @@
-export const faqs = [
+﻿export const faqs = [
   {
-    question: 'Apa itu botol plastik HDPE?',
+    question: 'Produk plastik apa saja yang tersedia?',
     answer:
-      'Botol plastik HDPE adalah botol berbahan High-Density Polyethylene yang umum digunakan untuk kemasan karena kuat, ringan, dan cocok untuk berbagai kebutuhan produk cair.',
+      'Merpati Agung Plastik menyediakan botol plastik HDPE, jerigen plastik, botol pupuk, botol kemasan oli, botol HCL, dan kemasan plastik untuk bahan kimia tertentu.',
   },
   {
-    question: 'Apakah Merpati Agung Plastik menerima custom botol?',
+    question: 'Apakah bisa order dalam jumlah besar?',
     answer:
-      'Ya, kebutuhan custom dapat didiskusikan terlebih dahulu, termasuk ukuran, warna botol, jenis tutup, bentuk botol, dan jumlah produksi.',
+      'Ya, kami melayani kebutuhan grosir dan B2B untuk toko bahan kimia, toko plastik, pabrik pupuk, penjual HCL, distributor, dan industri.',
   },
   {
-    question: 'Produk apa saja yang cocok menggunakan botol HDPE?',
+    question: 'Apakah spesifikasi botol dan jerigen bisa disesuaikan?',
     answer:
-      'Botol HDPE umum digunakan untuk sabun cair, shampoo, hand sanitizer, cairan pembersih, chemical tertentu, pupuk cair, produk otomotif, kosmetik, dan personal care.',
+      'Kebutuhan ukuran, kapasitas, warna, model tutup, dan bentuk kemasan dapat didiskusikan sesuai ketersediaan produk dan jumlah pemesanan.',
   },
   {
-    question: 'Apakah bisa order botol plastik partai besar?',
+    question: 'Apakah botol bisa digunakan untuk HCL dan bahan kimia?',
     answer:
-      'Ya, Merpati Agung Plastik melayani kebutuhan botol plastik partai besar untuk brand, distributor, toko packaging, pabrik, dan industri.',
+      'Untuk HCL dan bahan kimia lain, spesifikasi kemasan perlu dikonfirmasi terlebih dahulu agar pilihan botol atau jerigen sesuai dengan kebutuhan produk.',
   },
   {
-    question: 'Apakah tersedia pilihan warna dan ukuran botol?',
+    question: 'Siapa target pelanggan Merpati Agung Plastik?',
     answer:
-      'Pilihan warna, ukuran, model botol, dan jenis tutup dapat disesuaikan dengan ketersediaan serta kebutuhan produksi.',
+      'Kami melayani toko bahan kimia, toko plastik, pabrik pupuk, penjual HCL, distributor, brand, dan pelaku industri yang membutuhkan produk plastik.',
   },
   {
     question: 'Di mana lokasi Merpati Agung Plastik?',

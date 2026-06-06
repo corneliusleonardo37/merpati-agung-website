@@ -1,17 +1,17 @@
-export const systemValues = [
+﻿export const systemValues = [
   {
-    title: 'Produksi Terarah',
+    title: 'Kebutuhan Jelas Sejak Awal',
     description:
-      'Kebutuhan botol dibahas sejak awal, mulai dari ukuran, warna, jenis tutup, sampai jumlah produksi.',
+      'Jenis produk, ukuran, kapasitas, tutup, warna, dan jumlah order dibahas sejak awal agar pilihan kemasan lebih tepat.',
   },
   {
-    title: 'Material HDPE',
+    title: 'Produk Plastik Fungsional',
     description:
-      'Menggunakan material HDPE yang umum dipakai untuk kemasan botol plastik karena kuat, ringan, dan fungsional.',
+      'Menyediakan botol HDPE, jerigen, botol pupuk, botol oli, dan botol HCL untuk kebutuhan usaha dan industri.',
   },
   {
-    title: 'Siap B2B',
+    title: 'Siap B2B dan Grosir',
     description:
-      'Melayani kebutuhan botol plastik untuk brand, distributor, toko packaging, pabrik, dan industri.',
+      'Melayani toko bahan kimia, toko plastik, pabrik pupuk, penjual HCL, distributor, dan kebutuhan industri.',
   },
 ];

@@ -1,32 +1,32 @@
-export const services = [
+﻿export const services = [
   {
     title: 'Botol Plastik HDPE',
     description:
-      'Produksi botol plastik HDPE untuk kebutuhan kemasan produk cair, semi-cair, dan kebutuhan industri.',
+      'Produksi dan supply botol plastik HDPE untuk produk cair, bahan kimia tertentu, kebutuhan toko, dan industri.',
   },
   {
-    title: 'Botol Sabun & Cleaning Product',
+    title: 'Jerigen Plastik',
     description:
-      'Botol HDPE untuk sabun cair, cairan pembersih, disinfektan, hand sanitizer, dan produk rumah tangga.',
+      'Jerigen plastik untuk kebutuhan bahan kimia, cairan industri, pupuk cair, oli, dan distribusi produk cair.',
   },
   {
-    title: 'Botol Kosmetik & Personal Care',
+    title: 'Botol Pupuk',
     description:
-      'Kemasan botol plastik untuk shampoo, body wash, lotion, toner, dan produk perawatan pribadi.',
+      'Botol plastik untuk pupuk cair, nutrisi tanaman, produk pertanian, dan kebutuhan pabrik pupuk.',
   },
   {
-    title: 'Botol Chemical & Industri',
+    title: 'Botol Kemasan Oli',
     description:
-      'Botol HDPE untuk kebutuhan chemical tertentu, otomotif, pupuk cair, dan produk teknis lainnya.',
+      'Botol plastik untuk kemasan oli, pelumas, cairan otomotif, dan produk teknis lain yang membutuhkan kemasan kuat.',
   },
   {
-    title: 'Custom Ukuran & Warna',
+    title: 'Botol HCL & Bahan Kimia',
     description:
-      'Kebutuhan ukuran, warna botol, jenis tutup, dan model tertentu dapat didiskusikan sesuai jumlah produksi.',
+      'Botol dan kemasan plastik untuk HCL serta bahan kimia lain, dengan spesifikasi yang perlu dikonfirmasi sesuai kebutuhan produk.',
   },
   {
     title: 'Supply Grosir & B2B',
     description:
-      'Melayani kebutuhan botol plastik partai besar untuk brand, distributor, toko packaging, pabrik, dan industri.',
+      'Melayani toko bahan kimia, toko plastik, pabrik pupuk, penjual HCL, distributor, dan kebutuhan industri dalam jumlah besar.',
   },
 ];

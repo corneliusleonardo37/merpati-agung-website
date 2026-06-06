@@ -1,0 +1,9 @@
+﻿<svg width="441" height="125" viewBox="0 0 441 125" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Merpati Agung Plastik</title>
+  <desc id="desc">Logo sederhana Merpati Agung Plastik</desc>
+  <rect width="441" height="125" rx="18" fill="#0F766E"/>
+  <circle cx="66" cy="62" r="34" fill="#F8FAFC"/>
+  <path d="M49 80V45h11l9 18 9-18h11v35h-9V58L72 80h-7l-8-22v22h-8Z" fill="#0F766E"/>
+  <text x="116" y="55" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Merpati Agung</text>
+  <text x="116" y="87" fill="#CCFBF1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Plastik</text>
+</svg>
